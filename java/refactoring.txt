@@ -1,0 +1,14 @@
+1. Refactoring automatique
+- Ctrl-S -> formattage auto
+- Warnings -> résolution auto
+
+2.
+- classe addPlayers dans GameRunner
+- renommage de game.add en addPlayer
+- création d'une classe Player -> place, purse, inPenaltyBox, name
+- Ajout des mots-clés private
+- création de fonctions lors de la duplication de code (playCurrentTurn, create...Questions, 
+populateQuestions, nextPlayer)
+- Ajout d'une énum QuestionCategory
+- Ajout de la gestion des catégories de question % places dans l'énum
+- Ajout d'une classe Questions
